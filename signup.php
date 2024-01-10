@@ -1,6 +1,7 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +9,6 @@
     <link rel="stylesheet" href="Assets/login.css">
     <title>Join Subhan Carriers || Sign-Up Here</title>
 </head>
-
 <body style="background: url(./Assets/img/3139767.jpg);">
     <?php
 
@@ -57,7 +57,6 @@ if(isset($_POST['submits'])){
     }  
 }
 ?>
-
     <div class="wrapper">
         <div class="form-wrapper sign-up">
             <form action="" method="post">
@@ -86,10 +85,6 @@ if(isset($_POST['submits'])){
             </form>
         </div>
     </div>
-
-
-
     <script src="login.js"></script>
 </body>
-
 </html>
