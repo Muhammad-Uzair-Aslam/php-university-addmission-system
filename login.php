@@ -1,9 +1,9 @@
+
 <?php
 session_start();
 ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,10 +14,6 @@ session_start();
 </head>
 
 <body style="background: url(./Assets/img/3139767.jpg);">
-
-
-
-
     <?php
 //Database connectivity
 include 'dbcon.php';
@@ -58,8 +54,6 @@ if(isset($_POST['submit'])){
 }
 
 ?>
-
-
     <div class="wrapper">
         <div class="form-wrapper sign-in">
             <form action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" method="POST">
@@ -80,10 +74,5 @@ if(isset($_POST['submit'])){
             </form>
         </div>
     </div>
-
-
-
-
 </body>
-
 </html>
