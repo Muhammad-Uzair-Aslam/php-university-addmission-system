@@ -1524,7 +1524,6 @@ class PHPMailer
             return false;
         }
     }
-
     /**
      * Prepare a message for sending.
      *
@@ -3078,10 +3077,8 @@ class PHPMailer
                 }
             }
         }
-
         return $body;
     }
-
     /**
      * Get the boundaries that this message will use
      * @return array
