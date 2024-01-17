@@ -1,5 +1,4 @@
 <?php
-
 /**
  * PHPMailer RFC821 SMTP email transport class.
  * PHP Version 5.5.
@@ -18,9 +17,7 @@
  * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
  * FITNESS FOR A PARTICULAR PURPOSE.
  */
-
 namespace PHPMailer\PHPMailer;
-
 /**
  * PHPMailer RFC821 SMTP email transport class.
  * Implements RFC 821 SMTP commands and provides some utility methods for sending mail to an SMTP server.
@@ -197,7 +194,6 @@ class SMTP
         'ZoneMTA' => '/[\d]{3} Message queued as (.*)/',
         'Mailjet' => '/[\d]{3} OK queued as (.*)/',
     ];
-
     /**
      * The last transaction ID issued in response to a DATA command,
      * if one was detected.
