@@ -10,7 +10,6 @@ $conn = new mysqli($host, $username, $password, $database);
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
-
 // Retrieve form data
 $nam = $_POST['nam'];
 $email = $_POST['email'];
@@ -23,11 +22,9 @@ $phone = $_POST['phone'];
 $dob = $_POST['dob'];
 $degree = $_POST['degree'];
 // Retrieve other form fields similarly
-
 // Insert data into the database
 $sql = "INSERT INTO students (nam, email,addres, cnic, gender, matric_marks, inter_marks, phone, dob, degree)
         VALUES ('$nam', '$email', '$addres', '$cnic', '$gender', '$matric_marks', '$inter_marks', '$phone', '$dob', '$degree')";
-
 if ($conn->query($sql) === TRUE) {
    // echo "Record inserted successfully";
     header("Location: pageafterdata.html");
