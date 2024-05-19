@@ -27,10 +27,10 @@
                 <ul>
                     <li><a href="index.php" id="homenav" onclick="alert()">Home</a></li>
                     <li><a href="programs.html">Programs</a></li>
-                    <li><a href="admission.html" target="_blank">Admission</a></li>
+                    <li><a href="admission.html" >Admission</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="signup.php">Sign Up</a></li>
-                    <li><a href="contact.html" target="_blank">Contact</a></li>
+                    <li><a href="contact.html" >Contact</a></li>
                 </ul>
             </div>
             <i class="fa fa-bars" onclick="showMenu()"></i>
